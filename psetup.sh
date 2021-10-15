@@ -7,14 +7,14 @@
 cd ~
 sudo apt-get update
 sudo apt-get install git -y
-git clone https://github.com/akhilnarang/scripts
+git clone git@github.com:akhilnarang/scripts.git
 cd scripts
 bash setup/android_build_env.sh
 
 # Misc.
 cd ~
 rm -rf scripts
-git clone https://github.com/AliHasan7671/private-scripts -b master scripts
+git clone git@github.com:AliHasan7671/private-scripts -b master scripts
 bash scripts/setup.sh
 
 echo Done
